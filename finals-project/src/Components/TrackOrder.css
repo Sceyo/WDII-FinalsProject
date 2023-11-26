@@ -1,0 +1,56 @@
+.Order{
+    height: 500px;
+    width: 100%;
+    position:inherit;
+    margin-top: 150px;
+}
+
+.Order .lead {
+   margin-top: 60px;
+}
+
+.track-order {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    margin-left: auto;
+}
+
+
+
+.buttons {
+    position: relative; /* Set position to relative for positioning */
+    margin-left: 650px; /* Move the container to the left */
+    margin-top: -60px; /* Adjust vertical position */
+    /* Set the width */
+    display: flex; /* Use flexbox for flexible layout */
+    justify-content: space-between; /* Space between buttons */
+    align-items: center;
+}
+
+.buttons button {
+    margin-right: 320px;
+    width: 200px; 
+    height: 80px;/* Add space between buttons */
+}
+
+.buttons1 {
+    position: relative; /* Set position to relative for positioning */
+    margin-left: 1000px; /* Move the container to the left */
+    margin-top: 0px; /* Adjust vertical position */
+    /* Set the width */
+    display: flex; /* Use flexbox for flexible layout */
+    justify-content: space-between; /* Space between buttons */
+    align-items: center;
+}
+
+.buttons1 button {
+    margin-right: 320px;
+    width: 200px; 
+    height: 80px;/* Add space between buttons */
+}
+
+

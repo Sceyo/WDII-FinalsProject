@@ -1,0 +1,39 @@
+.navbar{
+    position:fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    z-index: 100;
+    height: 100px;
+    font-family: 'Lato', sans-serif
+}
+
+.navbar-blue {
+    background-color:#8E8E8E; 
+}
+.navbar-nav {
+  flex-wrap: nowrap; 
+}
+
+.navbar-left-align .nav-item {
+  margin-right: 35px; 
+}
+
+
+.dropdown-menu{
+  position: absolute;
+}
+
+.userLog{
+  left: -100px;
+  position: relative;
+  top: -30px;
+  height: 20px;
+  font-size: 14px;
+}
+
+.btn{
+  width: 100px;
+  position: absolute;
+
+}

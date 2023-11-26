@@ -1,0 +1,23 @@
+.first{
+    background-color: #424242;
+    height: 400px;
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+}
+
+.first h1{
+    margin-left: 450px;
+    top: 90px;
+    position: absolute;
+}
+
+.first h2{
+    position: absolute;
+    top: 230px;
+    margin-left: 380px;
+}
+.Second{
+    position: absolute;
+    top: 600px;
+}
