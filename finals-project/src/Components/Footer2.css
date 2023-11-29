@@ -1,0 +1,37 @@
+.Footer{
+    width: 100%;
+    background-color:  #116A7B;
+    height: 250px;
+}
+.logo{
+    width: 20%;
+}
+.smart-delivery-text {
+    position: relative; /* or absolute, depending on the context */
+    top: 180px; /* Adjust the top position */
+    margin-left: 20px; /* Adjust the spacing between image and text */
+    font-size: 36px; /* Adjust the font size as needed */
+    color: white;
+  }
+  
+
+  .container-with-position-relative {
+    position: relative;
+    /* Add any other necessary styles */
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .vertical-line {
+    position: absolute;
+    height: 180px;
+    width: 1px;
+    background-color: white;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }

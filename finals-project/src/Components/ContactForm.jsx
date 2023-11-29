@@ -1,6 +1,6 @@
-import Navbar from './Navbar'
+import Navbar from './Navbar2'
 import ContSecond from './ContSecond'
-import Footer from './Footer'
+import Footer from './Footer2'
 import './ContactForm.css'
 
 export default function ContactForm(){
@@ -9,23 +9,21 @@ export default function ContactForm(){
         <>
             <Navbar/>    
             <div className="first">
-                <h1>We are Company Name</h1>
+                <h1>We are Smart Delivery</h1>
                
                 <h2>"Freshness Delivered to Your Doorstep"</h2>
+            </div>
+            <div className = "announcement">
+                <h1>Contact Us</h1>
+                <p>"Have a question or comment? Get in touch with our team."</p>
+
             </div>
             <div className ="Second">
                 <ContSecond/>
                 
             </div>
             <div className = "Third">
-                        <div class="p-5 mb-4 bg-body-tertiary rounded-3">
-                <div class="container-fluid py-5">
-                    <h1 class="display-5 fw-bold">Custom jumbotron</h1>
-                    <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-                    <button class="btn btn-primary btn-lg" type="button">Example button</button>
-                </div>
-            </div>
-            <Footer/>
+    
             </div>
         </>
     )

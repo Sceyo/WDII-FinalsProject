@@ -1,0 +1,64 @@
+.navbar{
+    position:fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    z-index: 100;
+    height: 100px;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.navbar-blue {
+  background-color: #116A7B; 
+}
+.navbar-nav {
+  flex-wrap: nowrap; 
+}
+
+.navbar-left-align .nav-item {
+  margin-right: 35px; 
+}
+
+.userLog{
+  left: -100px;
+  position: relative;
+  top: -30px;
+  height: 20px;
+  font-size: 14px;
+}
+
+.btn{
+  width: 100px;
+  position: absolute;
+
+}
+
+.navbar-blue .nav-link,
+.navbar-blue .navbar-brand,
+.navbar-blue .btn {
+  color: white !important;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.smart-delivery-textM {
+  margin-left: 5px; /* Adjust the spacing between image and text */
+  font-size: 36px; /* Adjust the font size as needed */
+  /* Add other styles as desired */
+}
+
+.navbar-nav {
+  margin-top: -60px;
+  padding-top: 10px;
+  margin-left: 70px
+}
+
+/* Adjust the font weight and color of the navigation links */
+.navbar-nav .nav-link {
+  font-weight: bold;
+  color: #000; /* Change this color according to your design */
+}

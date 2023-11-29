@@ -1,11 +1,12 @@
-.first{
-    background-color: #424242;
+.first {
+    background-image: url('Contact us.jpg'); /* Replace 'path/to/your/image.jpg' with your image file path */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
     height: 400px;
     width: 100%;
     margin-top: 100px;
     position: relative;
 }
-
 .first h1{
     margin-left: 450px;
     top: 90px;
@@ -25,7 +26,7 @@
 
 .firstHalf {
     flex: 1;
-    background-color: aquamarine;
+    background-color: #CDC2AE;
     height: 100%;
 }
 
@@ -56,7 +57,7 @@
 
 .secondHalf {
     flex: 1;
-    background-color: bisque;
+    background-color: #CDC2AE;
     height: 100%;
     
 }
@@ -64,6 +65,7 @@
 .tBody{
     margin-top: 20px;
     margin-left: 50px;
+    
    
 }
 
@@ -71,5 +73,26 @@
     /* Resetting any potentially interfering properties */
     word-break: normal;
     white-space: normal;
-    width: 30%;
+    width: 50%;
 }
+
+.announcement {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 100px; /* Set a height for vertical centering, adjust as needed */
+    background-color: #CDC2AE;
+}
+
+.custom-border {
+    border: 2px solid black;
+    /* Add any additional styles as needed */
+}
+
+  .visit-link {
+    text-decoration: none; /* Remove underline */
+    color: #116A7B; /* Set text color */
+    font-size: 17px; /* Adjust text size */
+    font-weight: bold;
+  }
