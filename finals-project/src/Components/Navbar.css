@@ -1,57 +1,224 @@
-.navbar{
-    position:fixed;
+.box {
+    width: 100%;
+    height: 207px;
+}
+.box .nav{
+    height: 207px;
+    left: 0;
+    position: fixed;
     top: 0;
     width: 100%;
+}
+
+.box .overlap {
+    height: 207px;
+    position: relative;
+}
+
+.box .navbar {
+    background-color: #116a7b;
+    height: 138px;
     left: 0;
-    z-index: 100;
-    height: 100px;
-    font-family: 'Lato', sans-serif;
-    
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 
-.navbar-blue {
-  background-color: rgba(142, 142, 142, 0); 
+.box .login-sign {
+    height: 57px;
+    left: 1076px;
+    width: 249px;
+    position: absolute;
+    top: 0;
 }
-.navbar-nav {
-  flex-wrap: nowrap; 
-}
-
-.navbar-left-align .nav-item {
-  margin-right: 35px; 
-}
-
-
-.dropdown-menu{
-  position: absolute;
-}
-
-.userLog{
-  left: -130px;
-  position: relative;
-  top: -30px;
-  height: 20px;
-  font-size: 14px;
+.box .frame {
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    height: 57px;
+    justify-content: center;
+    position: relative;
+    width: 249px;
 }
 
-.btn{
-  width: 100px;
-  position: absolute;
-
+.box .login {
+    height: 36px;
+    position: relative;
+    width: 77px;
 }
 
-.navbar-blue .nav-link,
-.navbar-blue .navbar-brand,
-.navbar-blue .btn {
-  color: white !important;
+.box .text-wrapper {
+    color: #ffffff;
+    font-family: 'Maven Pro-Semibold', Helvetica;
+    font-size: 22px;
+    font-weight: 600;
+    height: 33px;
+    left: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 5px;
+    white-space: nowrap;
 }
 
-.logo-container {
-  display: flex;
-  align-items: center; /* Align items vertically */
+.box .signup-btn {
+    background-color: #414141;
+    border-radius: 10px;
+    height: 37px;
+    left: 35px;
+    position: relative;
+    width: 135px;
 }
 
-.smart-delivery-text {
-  margin-left: 5px; /* Adjust the spacing between image and text */
-  font-size: 36px; /* Adjust the font size as needed */
-  /* Add other styles as desired */
+.box .div {
+    color:#ffffff;
+    font-family: "Maven Pro-Semibold", Helvetica;
+    font-size: 22px;
+    font-weight: 600;
+    height: 33px;
+    left: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 5px;
+    width: 103px;
+}
+
+.box .tel {
+    height: 40px;
+    left: 145px;
+    position: absolute;
+    top: 14px;
+    width: 239px;
+}
+
+.box .telephone {
+    height: 30px;
+    width: 30px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+}
+
+.box .text-wrapper2 {
+    color: #ffffff;
+    font-family: "Maven Pro-Semibold", Helvetica;
+    font-size: 22px;
+    font-weight: 600;
+    height: 33px;
+    left: 44px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+}
+
+.box .supp {
+    height: 40px;
+    left: 410px;
+    position: absolute;
+    top: 14px;
+    width: 427px;
+}
+
+.box .mail {
+    height: 30px;
+    width: 30px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+}
+
+.box .text-wrapper3 {
+    color: #ffffff;
+    font-family: "Maven Pro-Semibold", Helvetica;
+    font-size: 22px;
+    font-weight: 600;
+    height: 33px;
+    left: 44px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+}
+
+.box .overlap-group-wrapper {
+    height: 138px;
+    left: 115px;
+    position: absolute;
+    top: 69px;
+    width: 1212px;
+}
+
+.box .overlap-group {
+    background-color: #cdc2ae;
+    height: 138px;
+    position: relative;
+    width: 1212px;
+    left: 30px;
+}
+
+.box .group {
+    height: 113px;
+    left: 27px;
+    position: absolute;
+    top: 12px;
+    width: 377px;
+}
+
+.box .text-wrapper4 {
+    color: #116a7b;
+    font-family: "Maven Pro-Semibold", Helvetica;
+    font-size: 32px;
+    font-weight: 600;
+    height: 42px;
+    left: 135px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 30px;
+    white-space: nowrap;
+}
+
+.box .company-logo {
+    height: 113px;
+    left: 10px;
+    mix-blend-mode: multiply;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 121px;
+}
+
+.box .nav-bar {
+    color: #414141;
+    font-family: "Maven Pro-Semibold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    height: 48px;
+    left: 470px;
+    letter-spacing: -2.8px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 45px;
+    width: 720px;
+}
+
+.box .nav-bar a {
+    text-decoration: none;
+    color: #414141;
+}
+  
+.box .nav-bar a.active {
+    font-weight: bold;
 }
