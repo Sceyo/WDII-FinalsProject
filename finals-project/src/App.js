@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './Components/Navbar';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home'; 
 import Services from './Pages/Services'; 
 import About from './Pages/About'; 
@@ -13,21 +13,19 @@ import SignUp from './Pages/SignUp';
 function App() {
   return (
     <>
-    {/* <Router>
-      {/* <Navbar />
-      <Home /> */}
-      {/* <Login />
+    <BrowserRouter>
       <Routes>
-        <Route path="/" exact component={Home} />
-        <Route path="/services" component={Services} />
-        <Route path="/about" component={About} />
-        <Route path="/contact us" component={Contact} />
-        <Route path="/reviews" component={Reviews} />
-        <Route path="/login" component={Login} />
-        <Route path="/signup" component={SignUp} />
-      </Routes> */}
-    {/* </Router> */}
-    <Home/>
+      <Route path="/" element={<Home />}>
+          <Route index element={<Home />} />
+          <Route path="Services" element={<Services />} />
+          <Route path="About" element={<About />} />
+          <Route path="Contact" element={<Contact />} />
+          <Route path="Reviews" element={<Reviews />} />
+          <Route path="Login" element={<Login />} />
+          <Route path="SignUp" element={<SignUp/>} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
     </>
   );
 };
