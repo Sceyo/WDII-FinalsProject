@@ -1,4 +1,4 @@
-/*import './Sign Up.css'
+import './SignUp.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CompanyLogo from '../Images/Company Logo.jpg'
 import apple from '../Images/apple.png'
@@ -37,4 +37,4 @@ export default function SignUp(){
             </div>   
         </>
     )
-}*/
+}

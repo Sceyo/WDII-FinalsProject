@@ -8,15 +8,15 @@ import About from './Pages/About';
 import Contact from './Pages/Contact Us';
 import Reviews from './Pages/Reviews'; 
 import Login from './Pages/Login';
-import SignUp from './Pages/Sign Up';
+import SignUp from './Pages/SignUp';
 
 function App() {
   return (
     <>
-    <Router>
+    {/* <Router>
       {/* <Navbar />
       <Home /> */}
-      <Login />
+      {/* <Login />
       <Routes>
         <Route path="/" exact component={Home} />
         <Route path="/services" component={Services} />
@@ -24,9 +24,10 @@ function App() {
         <Route path="/contact us" component={Contact} />
         <Route path="/reviews" component={Reviews} />
         <Route path="/login" component={Login} />
-        <Route path="/sign up" component={SignUp} />
-      </Routes>
-    </Router>
+        <Route path="/signup" component={SignUp} />
+      </Routes> */}
+    {/* </Router> */}
+    <Home/>
     </>
   );
 };
