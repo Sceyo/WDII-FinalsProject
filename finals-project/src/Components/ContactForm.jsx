@@ -1,4 +1,4 @@
-import Navbar from './Navbar2'
+/*import Navbar from './Navbar2'
 import ContSecond from './ContSecond'
 import Footer from './Footer2'
 import './ContactForm.css'

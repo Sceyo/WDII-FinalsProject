@@ -1,6 +1,6 @@
-.first{
-    background-image: url('About us 3.png'); /* Replace 'path/to/your/image.jpg' with your image file path */
-    background-size: cover; /* Ensures the image covers the entire background */
+/*.first{
+    /*background-image: url('./Images/About us 3.png');  Replace 'path/to/your/image.jpg' with your image file path
+    background-size: cover; Ensures the image covers the entire background
     background-repeat: no-repeat; 
     height: 400px;
     width: 100%;
@@ -71,4 +71,4 @@
     width: 100%;
     background-color: #CDC2AE;
     position: flex;
-}
+}*/

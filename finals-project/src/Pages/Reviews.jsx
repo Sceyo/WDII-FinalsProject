@@ -1,7 +1,7 @@
-import Navbar from './Navbar'
-import Footer from './Footer'
-import Carousel from './Carousel'
-import './Review.css'
+/*import Navbar from '../Components/Navbar'
+//import Footer from './Footer'
+import Carousel from '../Components/Carousel'
+import './Reviews.css'
 
 export default function Home() {
     return (
@@ -16,7 +16,7 @@ export default function Home() {
             <div className = "carousell">
                 <Carousel/>
             </div>
-            <Footer/>
+            {/*<Footer/> 
         </>
     );
-};
+};*/

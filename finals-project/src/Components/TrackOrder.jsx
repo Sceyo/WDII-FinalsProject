@@ -1,5 +1,5 @@
-import Navbar from './Navbar'
-import Footer from './Footer'
+/*import Navbar from './Navbar'
+// import Footer from './Footer'
 import './TrackOrder.css'
 
 export default function TrackOrder(){
@@ -37,7 +37,7 @@ export default function TrackOrder(){
                 <button type="button" class="btn btn-primary btn-lg">Contact Service</button>
                 </div>
             </div>
-            <Footer/>
+            {/* <Footer/>
         </>
     )
 }

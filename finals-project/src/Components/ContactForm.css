@@ -1,7 +1,7 @@
-.first {
-    background-image: url('Contact us.jpg'); /* Replace 'path/to/your/image.jpg' with your image file path */
-    background-size: cover; /* Ensures the image covers the entire background */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
+/*.first {
+    background-image: url('Contact us.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
     height: 400px;
     width: 100%;
     margin-top: 100px;
@@ -37,10 +37,10 @@
 
 .firstHalf input,
 .firstHalf textarea {
-    width: 60%; /* Adjust the width as needed */
+    width: 60%; 
     margin-left: 100px;
     top: 100px;
-    /* Other styling properties as required */
+    
 }
 
 .firstHalf label{
@@ -70,7 +70,7 @@
 }
 
 .tBody p {
-    /* Resetting any potentially interfering properties */
+    
     word-break: normal;
     white-space: normal;
     width: 50%;
@@ -79,20 +79,20 @@
 .announcement {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center vertically */
-    align-items: center; /* Center horizontally */
-    height: 100px; /* Set a height for vertical centering, adjust as needed */
+    justify-content: center; 
+    align-items: center; 
+    height: 100px; 
     background-color: #CDC2AE;
 }
 
 .custom-border {
     border: 2px solid black;
-    /* Add any additional styles as needed */
+    
 }
 
   .visit-link {
-    text-decoration: none; /* Remove underline */
-    color: #116A7B; /* Set text color */
-    font-size: 17px; /* Adjust text size */
+    text-decoration: none; 
+    color: #116A7B; 
+    font-size: 17px;
     font-weight: bold;
   }

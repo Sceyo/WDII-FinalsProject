@@ -1,6 +1,6 @@
-import Navbar from './Navbar2'
-import AboutBody from './AboutBody'
-import Footer from './Footer'
+/*import Navbar from '../Components/Navbar'
+import AboutBody from '../Components/AboutBody'
+//import Footer from './Footer'
 import './About.css'
 
 export default function About(){
@@ -35,4 +35,4 @@ export default function About(){
 
     )
 
-}
+}*/

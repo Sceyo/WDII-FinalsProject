@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+/*import React, { useState, useEffect } from 'react';
 import './Carousel.css';
-import twitter from './twitter.png'
-import linkedin from './linkedin.png'
-import instagram from './instagram.png'
+import twitterX from '../Images/twitter - x.png'
+import linkedin from '../Images/linkedin.png'
+import instagram from '../Images/instagram.png'
 
 
 export default function Carousel() {
@@ -17,7 +17,7 @@ export default function Carousel() {
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src={twitter} class="d-block w-100" alt="..."/>
+      <img src={twitterX} class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
       <img src={linkedin} class="d-block w-100" alt="..."/>

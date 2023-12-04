@@ -1,8 +1,8 @@
 import './Home.css';
-import Navbar from './Navbar';
-import home1 from './home1.png'
-import home2 from './home2.png'
-import home3 from './home3.png'
+import Navbar from '../Components/Navbar';
+import home1 from '../Images/home1.png'
+import home2 from '../Images/home2.png'
+import home3 from '../Images/home3.png'
 
 export default function Home() {
   return (

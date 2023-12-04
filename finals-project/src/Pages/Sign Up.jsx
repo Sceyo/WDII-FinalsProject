@@ -1,9 +1,9 @@
-import './SignUp.css'
-import logo from './logo.svg'
+/*import './Sign Up.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import apple from './apple.png'
-import fb from './facebook.png'
-import google from './google.png'
+import CompanyLogo from '../Images/Company Logo.jpg'
+import apple from '../Images/apple.png'
+import fb from '../Images/facebook.png'
+import google from '../Images/google.png'
 
 export default function SignUp(){
 
@@ -12,7 +12,7 @@ export default function SignUp(){
        
             <div className="container">
                 <div className = "logoSide">
-                     <img src={logo} className="d-block" style={{ width: '230px', height: '209px' }} alt="Slide 1" />
+                     <img src={CompanyLogo} className="d-block" style={{ width: '230px', height: '209px' }} alt="Slide 1" />
                      <h1>Smart Delivery</h1>
                      <hr className="blackLine" />
                      <p>"Freshness Delivered to Your Doorstep"</p>
@@ -37,4 +37,4 @@ export default function SignUp(){
             </div>   
         </>
     )
-}
+}*/

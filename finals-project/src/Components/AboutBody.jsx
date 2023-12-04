@@ -1,5 +1,5 @@
-import './About.css'
-import AU2 from './About us 2.jpg'
+/*import About from '../Pages/About';
+import AU2 from '../Images/About us 2.jpg';
 
 
 export default function AboutBody(){
