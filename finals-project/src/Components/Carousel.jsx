@@ -1,4 +1,4 @@
-/*import React, { useState, useEffect } from 'react';
+//import React, { useState, useEffect } from 'react';
 import './Carousel.css';
 import twitterX from '../Images/twitter - x.png'
 import linkedin from '../Images/linkedin.png'

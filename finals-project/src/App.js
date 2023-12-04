@@ -13,10 +13,10 @@ import SignUp from './Pages/SignUp';
 function App() {
   return (
     <>
-    {/* <Router>
-      {/* <Navbar />
-      <Home /> */}
-      {/* <Login />
+    <Router>
+      <Navbar />
+      <Home />
+      {/* <Login /> */}
       <Routes>
         <Route path="/" exact component={Home} />
         <Route path="/services" component={Services} />
@@ -25,9 +25,8 @@ function App() {
         <Route path="/reviews" component={Reviews} />
         <Route path="/login" component={Login} />
         <Route path="/signup" component={SignUp} />
-      </Routes> */}
-    {/* </Router> */}
-    <Home/>
+      </Routes>
+    </Router>
     </>
   );
 };

@@ -14,9 +14,10 @@ import yuki from '../Images/yuki.png'
 import emily from '../Images/emily.png'
 import michael from '../Images/michael.png'
 
-export default function Home() {
+function Home() {
   return (
     <>
+    <Navbar/>
       <div className='firstH'>
         <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
           <div className="carousel-inner">
@@ -230,8 +231,9 @@ where your laundry needs meet efficiency. Join us on a journey to fresher, clean
           </div>
         </div>
       </div>
-      </div>
-      
+    </div>
+
     </>
   );
 }
+export default Home;
