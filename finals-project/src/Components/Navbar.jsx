@@ -1,52 +1,54 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import React, {useState} from 'react';
+import { Link } from 'react-router-dom';
+import telephone from '../Images/telephone.png';
+import mail from '../Images/mail.png';
+import CompanyLogo from '../Images/Company Logo.jpg';
 import './Navbar.css';
-import logo from './logo.svg'
 
-export default function Navbar() {
+function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-blue bg-body-tertiaryy navbar-left-align" data-bs-theme="dark">
-      <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-        <div className="logo-container">
-          <img src={logo} className="d-block" style={{ width: '150px', height: '100px' }} alt="Slide 1" />
-          <p className="smart-delivery-text">Smart Delivery</p>
+    <div className='box'>
+        <div className='nav'>
+                <div className='overlap'>
+                    <div className='navbar'>
+                        <div className='login-sign'>
+                            <div className='frame'>
+                                <Link to="/login" className='login'>
+                                <div className='text-wrapper'>LOGIN</div>
+                                </Link>
+                                <Link to="/sign up" className='signup-btn'>
+                                <div className='div'>SIGNUP</div>
+                                </Link>
+                            </div>
+                        </div>
+                        <div className='tel'>
+                            <img src={telephone} alt='telephone' className='telephone'/> 
+                            <div className='text-wrapper2'>123-4567-890</div>
+                        </div>
+                        <div className='supp'>
+                            <img src={mail} alt='mail' className='mail'/>
+                            <div className='text-wrapper3'>support@smartdelivery.com</div>
+                        </div>
+                    </div>
+                    <div className='overlap-group-wrapper'>
+                        <div className='overlap-group'>
+                            <div className='group'>
+                                <div className='text-wrapper4'>Smart Delivery</div>
+                                <img src={CompanyLogo} alt='Company Logo' className='company-logo' />
+                            </div>
+                            <div className='nav-bar'>
+                                <Link to="/">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
+                                <Link to="/services">Services&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
+                                <Link to="/about">About&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
+                                <Link to="/contact us">Contact&nbsp;&nbsp;&nbsp;Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
+                                <Link to="/reviews">Reviews</Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        </a>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent" style = {{marginLeft:'170px',marginTop:'50px'}}>
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item">
-              <a className="nav-link active fw-bold text-dark" aria-current="page" href="#">Home</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link fw-bold text-dark" href="#">Services</a>
-            </li>
-            
-            <li className="nav-item">
-              <a className="nav-link fw-bold text-dark" href="#">About</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link fw-bold text-dark" href="#">Contact Us</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link fw-bold text-dark" href="#">Reviews</a>
-            </li>
-
-          </ul>
-        </div>
-        
-        <div className = "userLog">
-        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item">
-              <a className="nav-link fw-bold text-dark" aria-current="page" href="#">LOGIN</a>
-            </li>
-          </ul>
-          <button type="button"  class="btn btn-secondary btn-sm" style={{marginLeft:'90px',marginTop: '-35px', backgroundColor: '#116A7B' }}>SIGN UP</button>
-        </div>
-      </div>
-    </nav>
   );
 }
+
+export default Navbar;
