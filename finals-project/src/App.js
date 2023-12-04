@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import Navbar from './Components/Navbar';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './Components/Navbar';
 import Home from './Pages/Home'; 
 import Services from './Pages/Services'; 
 import About from './Pages/About'; 
@@ -9,14 +9,15 @@ import Contact from './Pages/Contact Us';
 import Reviews from './Pages/Reviews'; 
 import Login from './Pages/Login';
 import SignUp from './Pages/SignUp';
-
+import Footer from './Components/Footer';
 function App() {
   return (
     <>
     <Router>
-      <Navbar />
+      {/*<Navbar />
       <Home />
-      {/* <Login /> */}
+      
+      <Login /> */}
       <Routes>
         <Route path="/" exact component={Home} />
         <Route path="/services" component={Services} />
@@ -26,6 +27,7 @@ function App() {
         <Route path="/login" component={Login} />
         <Route path="/signup" component={SignUp} />
       </Routes>
+      <Footer />
     </Router>
     </>
   );
