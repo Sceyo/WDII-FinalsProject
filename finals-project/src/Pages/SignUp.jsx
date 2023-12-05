@@ -18,7 +18,7 @@ export default function SignUp(){
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"></link>
         <div className ="SUBody">
             <div className = "logoSide">
-            <a href="#" onClick={handleGoBack} style={{textDecoration: 'none',color: 'black',fontSize: '30px'}}><i class="fas fa-arrow-left"></i> Back</a> 
+            <a href="#" onClick={handleGoBack} style={{textDecoration: 'none',color: 'black',fontSize: '30px', marginLeft: '30px', marginTop: '20px'}}><i class="fas fa-arrow-left"></i> Back</a> 
                      <img src={CompanyLogo} className="d-block" style={{ width: '300px', height: 'auto',marginTop: '90px',marginLeft:'160px'}} alt="Slide 1" />
                      <h1>Smart Delivery</h1>
                      <hr className="blackLine" />

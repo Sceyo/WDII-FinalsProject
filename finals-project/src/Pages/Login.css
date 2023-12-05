@@ -186,3 +186,7 @@ body {
   background-color: #968574;
   transform: scale(0.95);
 }
+
+.backBtn a{
+    margin-left: -450px;
+}

@@ -1,5 +1,5 @@
-/*.first {
-    background-image: url('Contact us.jpg');
+.first {
+    background-image: url('../Images/Contact us1.png');
     background-size: cover; 
     background-repeat: no-repeat; 
     height: 400px;
@@ -9,7 +9,7 @@
 }
 .first h1{
     margin-left: 450px;
-    top: 90px;
+    top: -50px;
     position: absolute;
 }
 

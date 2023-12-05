@@ -108,7 +108,7 @@ export default function Home() {
         </div>
       </div>
       </div>
-      <div className='third'>
+      <div className='thirdL'>
         <div className='tRight'>
           <h1>Experience the Ultimate in Laundry Delivery Services</h1>
           <p>Say goodbye to laundry stress and hello to convenience. Let Smart Delivery take care of your garments with precision and care.</p>
@@ -123,7 +123,7 @@ where your laundry needs meet efficiency. Join us on a journey to fresher, clean
           </div>
         </div>
       </div>
-      <div className = "fourth">
+      <div className = "fourthL">
         <h1>How We Work</h1>
         <h2>Working Process</h2>
           <div className ="body4">
@@ -201,7 +201,9 @@ where your laundry needs meet efficiency. Join us on a journey to fresher, clean
 
           </div>
       </div>
-      <div className = "fifth">
+
+
+      <div className = "fifthL">
       <h1 style={{ marginTop: '-50px' }}>How We Work</h1>
 
         <h2>Working Process</h2>

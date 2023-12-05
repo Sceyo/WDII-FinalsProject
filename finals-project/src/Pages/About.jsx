@@ -15,11 +15,11 @@ export default function About(){
 
     return(
         <>
-            {/* <Navbar/> */}
+            <Navbar/>
             <div className="first">
-                <h1>We are Smart Delivery</h1>
+                {/* <h1>We are Smart Delivery</h1>
                
-                <h2>"Freshness Delivered to Your Doorstep"</h2>
+                <h2>"Freshness Delivered to Your Doorstep"</h2> */}
             </div>
             <div className = "Second">
                 <AboutBody/>

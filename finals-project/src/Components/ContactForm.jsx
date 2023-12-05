@@ -1,6 +1,6 @@
-/*import Navbar from './Navbar2'
+
 import ContSecond from './ContSecond'
-import Footer from './Footer2'
+import Navbar from './Navbar'
 import './ContactForm.css'
 
 export default function ContactForm(){
@@ -9,9 +9,9 @@ export default function ContactForm(){
         <>
             <Navbar/>    
             <div className="first">
-                <h1>We are Smart Delivery</h1>
+                {/* <h1>We are Smart Delivery</h1>
                
-                <h2>"Freshness Delivered to Your Doorstep"</h2>
+                <h2>"Freshness Delivered to Your Doorstep"</h2> */}
             </div>
             <div className = "announcement">
                 <h1>Contact Us</h1>
