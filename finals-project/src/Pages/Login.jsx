@@ -30,8 +30,13 @@ function Login() {
         navigate('/signup');
     };
 
+    const handleGoBack = () => {
+        window.history.go(-1); // Go back to the previous page
+    };
+
     return (
-        <div className="login-background">
+        
+        <div className="login-background">    
             <div className="login-container">
                 <div className="login-box">
                     <div className="company-info">

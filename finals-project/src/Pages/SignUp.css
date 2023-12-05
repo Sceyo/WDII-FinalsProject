@@ -1,16 +1,17 @@
-.Whole{
-    background-image: url('../Images/homeb2.png'); /* Replace 'path/to/your/image.jpg' with the path to your image */
-    background-size: cover; /* Ensures the background image covers the entire element */
-    background-position: center;
+html,
+body {
+
+  margin: 0;
+  padding: 0;
 }
 
-.container {
-    display: flex;
-    height: 700px;
-    width: 1000px;
-    position: relative;
-    margin-left: 180px;
-    
+.SUBody {
+  background-color: #CDC2AE;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+ 
+
 }
 
 .back-link {
@@ -35,23 +36,25 @@
 }
 
 .logoSide h1{
-    margin-left: 120px;
+    margin-left: 150px;
     margin-top:-10px ;
+    font-size: 50px;
+   
 }
 
 .blackLine {
     border: 0;
     height: 2px;
     background-color: black; 
-    width: 350px;
+    width:400px;
     margin-top: -6px;
-    margin-left: 74px;
+    margin-left: 110px;
 }
 
 .logoSide p{
     width: 50%;
-    font-size: 20px;
-    margin-left: 120px;
+    font-size: 25px;
+    margin-left: 140px;
     margin-top: -15px;
     text-align: center;
 }
@@ -59,37 +62,36 @@
     width: 50%;
     height: 100%;
     background-color: #116A7B;
+  
 }
 
 .rightSide h2{
-    margin-left: 100px;
+    margin-left: 30%;
     margin-top: 80px;
     color: white;
     font-size: 26px;
+
 }
 
 .rightSide p{
     color: white;
     font-size: 20px;
-    margin-left: 180px;
+    margin-left: 43%;
 }
 
 .custom-width{
-    width: 400px;
-    margin-left: 60px;
+    width: 500px;
+    margin-left: 100px;
     margin-top: 50px;
 }
 
 .custom-width1{
-    width: 400px;
-    margin-left: 60px;
+    width: 500px;
+    margin-left: 100px;
     margin-top: 50px;
 }
 .custom-width2{
-    width: 400px;
-    margin-left: 60px;
+    width: 500px;
+    margin-left: 100px;
     margin-top: 50px;
 }
-
-
-

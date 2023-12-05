@@ -14,10 +14,7 @@ export default function App() {
   return (
     <>
     <Router>
-      {/*<Navbar />
-      <Home />
-      
-      <Login /> */}
+     
       <Routes>
         <Route path="/" element={<Home />} /> 
          <Route path="/services" element={<Services />} />
@@ -25,9 +22,8 @@ export default function App() {
         <Route path="/contact-us" element={<Contact />} />
         <Route path="/reviews" element={<Reviews />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<SignUp />} />
+        <Route path="/signup" element={<SignUp/>} />
       </Routes>
-      <Footer />
     </Router>
     </>
   );

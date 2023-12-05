@@ -16,7 +16,7 @@ function Navbar() {
                                 <Link to="/login" className='login'>
                                 <div className='text-wrapper'>LOGIN</div>
                                 </Link>
-                                <Link to="/sign up" className='signup-btn'>
+                                <Link to="/signup" className='signup-btn'>
                                 <div className='div'>SIGNUP</div>
                                 </Link>
                             </div>
