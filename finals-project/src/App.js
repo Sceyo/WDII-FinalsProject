@@ -1,36 +1,34 @@
 import React from 'react';
-import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './Components/Navbar';
-import Home from './Pages/Home'; 
+import Home from './Pages/Home'
 import Services from './Pages/Services'; 
 import About from './Pages/About'; 
-import Contact from './Pages/Contact Us';
+import Contact from './Pages/ContactUs';
 import Reviews from './Pages/Reviews'; 
 import Login from './Pages/Login';
 import SignUp from './Pages/SignUp';
 import Footer from './Components/Footer';
-function App() {
+
+export default function App() {
   return (
     <>
     <Router>
-      <Navbar />
+      {/*<Navbar />
       <Home />
       
-      {/*<Login />*/}
+      <Login /> */}
       <Routes>
-        <Route path="/" exact component={Home} />
-        <Route path="/services" component={Services} />
-        <Route path="/about" component={About} />
-        <Route path="/contact us" component={Contact} />
-        <Route path="/reviews" component={Reviews} />
-        <Route path="/login" component={Login} />
-        <Route path="/signup" component={SignUp} />
+        <Route path="/" element={<Home />} /> 
+         <Route path="/services" element={<Services />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact-us" element={<Contact />} />
+        <Route path="/reviews" element={<Reviews />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<SignUp />} />
       </Routes>
-      {/*<Footer /> */}
+      <Footer />
     </Router>
     </>
   );
-};
-
-export default App;
+}

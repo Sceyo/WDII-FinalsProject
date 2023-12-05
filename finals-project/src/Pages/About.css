@@ -1,24 +1,29 @@
-/*.first{
-    /*background-image: url('./Images/About us 3.png');  Replace 'path/to/your/image.jpg' with your image file path
-    background-size: cover; Ensures the image covers the entire background
+.first{
+    background-image: url('../Images/About\ us\ 3.png');  
+    background-size: cover; 
     background-repeat: no-repeat; 
-    height: 400px;
+    height: 500px;
     width: 100%;
     margin-top: 100px;
-    position: inherit;
+   
     color: white;
+    position: flex;
 }
 
 .first h1{
     margin-left: 450px;
     top: 90px;
     position: absolute;
+    margin-top: 200px;
+    font-weight: bold;
+    
 }
 
 .first h2{
     position: absolute;
     top: 230px;
     margin-left: 380px;
+    margin-top: 130px;
 }
 .Second{
     position:flex;
@@ -41,34 +46,59 @@
     background-color: #CDC2AE;
   }
 
-.third{
-    height: 250px;
+  .third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
     width: 100%;
     background-color: white;
-    position: flex;
+}
+
+.holdSymbol {
+    display: flex; /* Set to flex */
+    justify-content: space-around; /* Adjust space between items */
+    align-items: center; /* Align items vertically */
+    width: 100%;
+}
+
+.symbol h2{
+    font-weight: 600;
+
 }
 
 .third h1{
-    margin-left: 36%;
-    margin-top: 13px;
+    margin-left:0;
+    margin-top: 25px;
     height: 80px;
+    font-weight: 600;
 }
 
-.quality{
-    margin-left: 110px;
-}
-
-.convenience{
-    margin-left: 410px;
-    margin-top: -47px;
-}
-.reliability{
-    margin-left: 710px;
-    margin-top: -47px;
-}
 .fourth{
+    height: 600px;
+    width: 100%;
+    background-color: #CDC2AE;
+    position: flex;
+    
+}
+
+.fifth{
     height: 500px;
     width: 100%;
     background-color: #CDC2AE;
     position: flex;
-}*/
+}
+
+.sixth{
+    height: 600px;
+    width: 100%;
+    background-color: #CDC2AE;
+    position: flex;
+}
+
+.sixth h1{
+    color: black;
+    text-align: center;
+   padding-top: 20px;
+   font-weight: 500;
+}
