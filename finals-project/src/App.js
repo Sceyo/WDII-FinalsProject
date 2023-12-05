@@ -14,10 +14,10 @@ function App() {
   return (
     <>
     <Router>
-      {/*<Navbar />
+      <Navbar />
       <Home />
       
-      <Login /> */}
+      {/*<Login />*/}
       <Routes>
         <Route path="/" exact component={Home} />
         <Route path="/services" component={Services} />
@@ -27,7 +27,7 @@ function App() {
         <Route path="/login" component={Login} />
         <Route path="/signup" component={SignUp} />
       </Routes>
-      <Footer />
+      {/*<Footer /> */}
     </Router>
     </>
   );
