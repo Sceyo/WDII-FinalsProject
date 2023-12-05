@@ -1,11 +1,10 @@
 
 
-export default function Services(){
+export default function ContactUs(){
 
     return(
         <>
         
         </>
     )
-
 }

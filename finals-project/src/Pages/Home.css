@@ -4,12 +4,16 @@
   align-items: center;
   height: 700px;
   width: 100%;
+  z-index: 1;
+  background-color: #116A7B;
+  margin-top: -69px;
 }
 .carousel-item img {
   width: 100%;
-  height: auto; /* To maintain aspect ratio */
+  height: 100%; /* To maintain aspect ratio */
   align-items: center;
   margin-left: 0px;
+  z-index: 1;
 }
 
 .carousel-content {
@@ -17,6 +21,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  
 }
 
 .carousel-caption-text {
@@ -66,7 +71,7 @@
 }
 
 .left h2{
-  font-size: 42px;
+  font-size: 45px;
 }
 
 .right{

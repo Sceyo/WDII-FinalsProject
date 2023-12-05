@@ -13,16 +13,17 @@ import Navbar from '../Components/Navbar'
 import yuki from '../Images/yuki.png'
 import emily from '../Images/emily.png'
 import michael from '../Images/michael.png'
+import Footer from '../Components/Footer'
 
-function Home() {
+export default function Home() {
   return (
     <>
-    <Navbar/>
+      <Navbar/>
       <div className='firstH'>
-        <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel" style={{zIndex: '1'}}>
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img src={home1} className="d-block w-100" alt="Slide 1" />
+              <img src={home1} className="d-block w-100" alt="Slide 1" style={{zIndex: '1'}}/>
               <div className="carousel-content">
                 <h1 className="carousel-caption-text">Laundry Delivery <br />Service</h1>
                 <p className="carousel-paragraph-text">Freshness Delivered to Your Doorstep</p>
@@ -58,8 +59,7 @@ function Home() {
           </div>
         </div>
       </div>
-
-  <div className= "second">
+      <div className= "second">
       <div className="secondOne">
           <div className='left'>
             <h2 style= {{color: '#116A7B'}}>Welcome to Smart Delivery</h2>
@@ -106,6 +106,7 @@ function Home() {
           
           <p class="background-text">Eco-Friendly</p>
         </div>
+      </div>
       </div>
       <div className='third'>
         <div className='tRight'>
@@ -231,9 +232,7 @@ where your laundry needs meet efficiency. Join us on a journey to fresher, clean
           </div>
         </div>
       </div>
-    </div>
-
+      <Footer/>
     </>
   );
 }
-export default Home;
