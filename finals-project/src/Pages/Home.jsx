@@ -6,9 +6,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import homeb1 from '../Images/homeb1.png'
 import delivery from '../Images/delivery.png'
-import customization from '../Images/customization.png'
-import workinghours from '../Images/workinghours.png'
-import ecoFriendly from '../Images/ecofriendly.png'
+import WDF from '../Images/laundry-basket.png'
+import DC from '../Images/dry-cleaning.png'
+import blanket from '../Images/blanket.png'
 import Navbar from '../Components/Navbar'
 import yuki from '../Images/yuki.png'
 import emily from '../Images/emily.png'
@@ -88,23 +88,23 @@ export default function Home() {
         </div>
         <div class="black-card">
           <div class = "cardbg">
-          <img src = {customization} />
+          <img src = {WDF} />
           </div>
          
-          <p class="background-text">Customized Care</p>
+          <p class="background-text">Wash, Dry & Fold</p>
         </div>
         <div class="black-card">
           <div class = "cardbg">
-          <img src = {workinghours} />
+          <img src = {DC} />
           </div>
-          <p class="background-text">Easy Scheduling</p>
+          <p class="background-text">Dry Cleaning</p>
         </div>
         <div class="black-card">
           <div class = "cardbg">
-          <img src = {ecoFriendly} />
+          <img src = {blanket} />
           </div>
           
-          <p class="background-text">Eco-Friendly</p>
+          <p class="background-text">Heavy Fabrics</p>
         </div>
       </div>
       </div>
