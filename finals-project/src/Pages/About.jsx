@@ -4,7 +4,7 @@ import Quality from '../Images/quality.png'
 import handshake from '../Images/handshake.png'
 import innovation from '../Images/Innovation.png'
 import convenience from '../Images/convenience.png'
-//import Footer from './Footer'
+import Footer from '../Components/Footer'
 import './About.css'
 import AU2 from '../Images/About us 2.jpg'
 import AU4 from '../Images/About us 4.jpg'
@@ -83,7 +83,9 @@ export default function About(){
                     </div>
                 </div>
             </div>
-
+            <div className='seventh'>
+            <Footer/>
+        </div>      
         </>
 
     )

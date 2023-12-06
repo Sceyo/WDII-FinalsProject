@@ -2,7 +2,7 @@
 import ContSecond from './ContSecond'
 import Navbar from './Navbar'
 import './ContactForm.css'
-
+import Footer from '../Components/Footer'
 export default function ContactForm(){
 
     return(
@@ -25,6 +25,10 @@ export default function ContactForm(){
             <div className = "Third">
     
             </div>
+            <div className='seventh'>
+            <Footer/>
+            </div>
+      
         </>
     )
 

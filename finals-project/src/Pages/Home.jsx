@@ -234,7 +234,10 @@ where your laundry needs meet efficiency. Join us on a journey to fresher, clean
           </div>
         </div>
       </div>
+      <div className='seventh'>
       <Footer/>
+      </div>
+      
     </>
   );
 }

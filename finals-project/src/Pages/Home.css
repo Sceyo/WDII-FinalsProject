@@ -235,6 +235,7 @@
   font-weight: 500;
   color: #116A7B;
   text-align: center;
+  padding-top: 30px;
 }
 
 .fourthL h2{
@@ -361,4 +362,8 @@
   margin-left: 15px;
   text-align: center;
   width: 80%;
+}
+.seventh{
+  height: 230px;
+  margin-top: 0px;
 }
