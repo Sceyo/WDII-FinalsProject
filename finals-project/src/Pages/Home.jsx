@@ -20,7 +20,7 @@ export default function Home() {
     <>
       <Navbar/>
       <div className='firstH'>
-        <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel" style={{zIndex: '1'}}>
+        <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel" style={{zIndex: '1'}} data-bs-interval="3000">
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img src={home1} className="d-block w-100" alt="Slide 1" style={{zIndex: '1'}}/>

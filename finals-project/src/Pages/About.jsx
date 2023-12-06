@@ -9,17 +9,18 @@ import './About.css'
 import AU2 from '../Images/About us 2.jpg'
 import AU4 from '../Images/About us 4.jpg'
 import AU5 from '../Images/About us 5.jpg'
- 
+import justine from '../Images/Justine.jpg'
+import francis from '../Images/aliser.jpg'
 
 export default function About(){
 
     return(
         <>
             <Navbar/>
-            <div className="first">
-                {/* <h1>We are Smart Delivery</h1>
+            <div className="firstA">
+                <h1>We are Smart Wash</h1>
                
-                <h2>"Freshness Delivered to Your Doorstep"</h2> */}
+                <h2>"Freshness Delivered to Your Doorstep"</h2>
             </div>
             <div className = "Second">
                 <AboutBody/>
@@ -48,11 +49,18 @@ export default function About(){
             <div className="fourth">
                 <div class="row featurette" style={{marginLeft:'50px'}}>
                     <div class="col-md-7 order-md-2">
-                        <h2 class="featurette-heading fw-normal lh-1" style ={{textAlign: 'left',color: 'black',fontWeight: 'bolder', fontSize: '50px', marginTop: '50px'}}>Who We Are?</h2>
+                        <h2 class="featurette-heading fw-normal lh-1" style ={{textAlign: 'left',color: 'black',fontWeight: 'bolder', fontSize: '50px', marginTop: '50px'}}>Who Are We?</h2>
                         <p class="lead" style = {{fontSize: '25px', textAlign: 'left', width:'90%'}}>At Smart Delivery, we take pride in being a group of enthusiastic students who have come together to redefine the laundry delivery experience. Our team comprises bright minds from various disciplines, united by a common goal – providing you with unparalleled laundry care.</p>
                     </div>
                     <div class="col-md-5 order-md-1">
-                        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src={AU2} alt="500x500 Image" style = {{marginTop: '75px', height: '500px',width:'1200px', marginRight: '100px'}}/>
+                        <div class="image-container" style ={{marginTop: '40px'}}>
+                            <img src={justine} style={{height: '250px'}} />
+                            <img src={francis} style={{height: '250px'}} />
+                        </div>
+                        <div class="image-container" style ={{marginTop: '30px'}}>
+                            <img src={justine} style={{height: '250px'}} />
+                            <img src={francis} style={{height: '250px'}} />
+                        </div>
                     </div>
                 </div>
             </div>
