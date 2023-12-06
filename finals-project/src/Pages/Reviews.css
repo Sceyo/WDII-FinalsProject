@@ -5,9 +5,9 @@
     height: 400px;
     width: 100%;
     margin-top: 165px;
-    display: flex; /* Use display: flex; to create a flex container */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
 }
 
 .firstR h1{
@@ -83,12 +83,11 @@
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-color: black; /* Change the background color of the icons */
-  /* You can also adjust other properties like color, size, etc., if needed */
+  background-color: black; 
 }
 
 .carousel-control-prev, .carousel-control-next {
-    background: none; /* Remove background */
-    border: none; /* Remove border */
-    padding: 0; /* Remove padding */
+    background: none; 
+    border: none; 
+    padding: 0; 
   }

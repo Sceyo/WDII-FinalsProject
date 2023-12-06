@@ -38,7 +38,6 @@ function Login() {
         <>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"></link>
         
-           
         <div className="login-background">
             <div className ="backBtn" style ={{marginTop: '-550px'}}>
             <a href="#" onClick={handleGoBack} style={{textDecoration: 'none',color: 'black',fontSize: '30px'}}><i class="fas fa-arrow-left"></i> Back</a> 

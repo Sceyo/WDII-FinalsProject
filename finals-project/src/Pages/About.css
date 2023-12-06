@@ -1,4 +1,4 @@
-.first{
+.firstA{
     background-image: url('../Images/About\ us\ 3.png');  
     background-size: cover; 
     background-repeat: no-repeat; 
@@ -10,8 +10,8 @@
     position: flex;
 }
 
-.first h1{
-    margin-left: 450px;
+.firstA h1{
+    margin-left: 475px;
     top: 90px;
     position: absolute;
     margin-top: 200px;
@@ -19,11 +19,11 @@
     
 }
 
-.first h2{
+.firstA h2{
     position: absolute;
     top: 230px;
     margin-left: 380px;
-    margin-top: 130px;
+    margin-top: 200px;
 }
 .Second{
     position:flex;
@@ -101,4 +101,12 @@
     text-align: center;
    padding-top: 20px;
    font-weight: 500;
+}
+
+.image-container {
+    display: flex; /* Use flexbox to arrange items in a row */
+}
+
+.image-container img {
+    margin-right: 10px; /* Optional: Add some space between the images */
 }
