@@ -1,0 +1,74 @@
+.YOBody {
+    display: flex;
+    height: 90vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    background-color: #CDC2AE;
+  }
+  .sidebar .LG {
+    text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 55px;
+  margin-top: 600px;
+  }
+
+  .sidebar{
+    width: 20%;
+    background-color: #116A7B;
+    height: 100%;
+    position: inherit;
+  }
+  
+  /* Add this CSS to your stylesheet */
+.PIBLink ul {
+    list-style: none; /* Remove bullets */
+    padding: 0; /* Remove default padding */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .PIBLink ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Use default text color */
+  }
+  
+  /* Additional styling if needed */
+  .PIBLink ul li {
+    margin-bottom: 10px; /* Adjust spacing between list items */
+  }
+  
+  .mainYO{
+    width: 80%;
+    height: 100%;
+  }
+
+.YOH2{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 50px;
+}  
+
+.mainYO1 label{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+  .imageButton1 {
+    border: none; /* Remove the button border */
+    background: none; /* Remove the button background */
+    padding: 0; /* Remove default padding */
+    margin-left: 15px;
+  }
+  
+  .mainYO2 label{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
