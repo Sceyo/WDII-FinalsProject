@@ -128,33 +128,33 @@ where your laundry needs meet efficiency. Join us on a journey to fresher, clean
         <h2>Working Process</h2>
           <div className ="body4">
              <div class="container1">
-                <div class="circCard">
-                  <div class="circle">
-                    <div class="innerCirc">
+                <div class="circCardH">
+                  <div class="circleH">
+                    <div class="innerCircH">
                       <h1>1</h1>
                     </div>
                   </div>
                   <p>Schedule Your Pickup</p>
                 </div>
-                <div class="circCard">
-                  <div class="circle">
-                    <div class="innerCirc">
+                <div class="circCardH">
+                  <div class="circleH">
+                    <div class="innerCircH">
                       <h1>2</h1>
                     </div>
                   </div>
                   <p>Garment Assessment</p>
                 </div>
-                <div class="circCard">
-                  <div class="circle">
-                    <div class="innerCirc">
+                <div class="circCardH">
+                  <div class="circleH">
+                    <div class="innerCircH">
                       <h1>3</h1>
                     </div>
                   </div>
                   <p>Tailored Cleaning Process</p>
                 </div>
-                <div class="circCard">
-                  <div class="circle">
-                    <div class="innerCirc">
+                <div class="circCardH">
+                  <div class="circleH">
+                    <div class="innerCircH">
                       <h1>4</h1>
                     </div>
                   </div>
@@ -164,33 +164,33 @@ where your laundry needs meet efficiency. Join us on a journey to fresher, clean
             </div>
 
            <div class="container2">
-                <div class="circCard">
-                  <div class="circle">
-                    <div class="innerCirc">
+                <div class="circCardH">
+                  <div class="circleH">
+                    <div class="innerCircH">
                       <h1>5</h1>
                     </div>
                   </div>
                   <p>Real-Time Tracking</p>
                 </div>
-                <div class="circCard">
-                  <div class="circle">
-                    <div class="innerCirc">
+                <div class="circCardH">
+                  <div class="circleH">
+                    <div class="innerCircH">
                       <h1>6</h1>
                     </div>
                   </div>
                   <p>Packaging & Delivery</p>
                 </div>
-                <div class="circCard">
-                  <div class="circle">
-                    <div class="innerCirc">
+                <div class="circCardH">
+                  <div class="circleH">
+                    <div class="innerCircH">
                       <h1>7</h1>
                     </div>
                   </div>
                   <p>Feedback & Support</p>
                 </div>
-                <div class="circCard">
-                  <div class="circle">
-                    <div class="innerCirc">
+                <div class="circCardH">
+                  <div class="circleH">
+                    <div class="innerCircH">
                       <h1>8</h1>
                     </div>
                   </div>
