@@ -12,6 +12,7 @@ import AU5 from '../Images/About us 5.jpg'
 import justine from '../Images/Justine.jpg'
 import francis from '../Images/aliser.jpg'
 import kimi from '../Images/kimi.jpg'
+import pael from '../Images/Pael.jpg'
 
 export default function About(){
 
@@ -60,7 +61,7 @@ export default function About(){
                         </div>
                         <div class="image-container" style ={{marginTop: '30px'}}>
                             <img src={kimi} style={{height: '250px'}} />
-                            <img src={francis} style={{height: '250px'}} />
+                            <img src={pael} style={{height: '250px'}} />
                         </div>
                     </div>
                 </div>

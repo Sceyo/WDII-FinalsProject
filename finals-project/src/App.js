@@ -9,12 +9,12 @@ import Reviews from './Pages/Reviews';
 import Login from './Pages/Login';
 import SignUp from './Pages/SignUp';
 import Footer from './Components/Footer';
-import Test from './Pages/YourOrder'
+import Test from './Admin/AdminHome'
 
 export default function App() {
   return (
     <>
-    {/* <Router>
+    <Router>
       <Routes>
         <Route path="/" element={<Home />} /> 
          <Route path="/services" element={<Services />} />
@@ -24,8 +24,8 @@ export default function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp/>} />
       </Routes>
-    </Router> */}
-    <Test/>
+    </Router>
+    {/* <Test/> */}
     </>
   );
 }
