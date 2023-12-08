@@ -254,13 +254,13 @@
   margin-left: 60px;
 }
 
-.circCard {
+.circCardH {
   margin: 0 30px 0 30px; /* Adjust margin as needed */
   text-align: center;
   flex: 1; /* Distribute available space equally among the items */
 }
 
-.circle {
+.circleH {
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -270,7 +270,7 @@
   align-items: center;
 }
 
-.innerCirc {
+.innerCircH {
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -280,11 +280,11 @@
   align-items: center;
 }
 
-.innerCirc h1 {
+.innerCircH h1 {
   font-size: 120px;
 }
 
-.circCard p {
+.circCardH p {
   font-size: 20px;
   font-weight: bold;
   text-align: center;

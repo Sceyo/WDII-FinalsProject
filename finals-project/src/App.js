@@ -9,7 +9,12 @@ import Reviews from './Pages/Reviews';
 import Login from './Pages/Login';
 import SignUp from './Pages/SignUp';
 import Footer from './Components/Footer';
-import Test from './Pages/ProfileInfo'
+import ProfileInfo from './Pages/ProfileInfo'
+import OrdersHist from './Pages/OrdersHistory'
+import OrderTrack from './Pages/OrderTracking'
+import Cart from './Pages/Cart'
+import Payment from './Pages/Payment'
+import Test from './Pages/OrderTracking'
 
 export default function App() {
   return (
@@ -23,6 +28,11 @@ export default function App() {
         <Route path="/reviews" element={<Reviews />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp/>} />
+        <Route path = "/profile-info" element = {<ProfileInfo/>}/>
+        <Route path = "/orders-history" element = {<OrdersHist/>}/>
+         <Route path = "/order-tracking" element = {<OrderTrack/>}/>
+         <Route path = "/cart" element = {<Cart/>}/>
+         <Route path = "/payment" element = {<Payment/>}/>
       </Routes>
     </Router>
     {/* <Test/> */}

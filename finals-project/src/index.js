@@ -1,62 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import App from './App';
-import Home from './Pages/Home'; 
-import Services from './Pages/Services'; 
-import About from './Pages/About'; 
-import Contact from './Pages/ContactUs'; // Update the import path accordingly
-import Reviews from './Pages/Reviews'; 
-import Login from './Pages/Login';
-import SignUp from './Pages/SignUp';
+// const express = require("express");
+// const mysql = require('mysql');
 
-// const router = createBrowserRouter([
-//   {
-//     path: '/',
-//     element: <Home/>
-//   },
-  
-//   {
-//     path:'/services',
-//     element: <Services/>
-  
-//   },
+// const app = express();
+ 
+// app.use(express.json());
+// const port = process.env.PORT || 3000;
 
-//   {
-//     path: '/about',
-//     element: <About/>
+// app.use("/auth", routes.authRoute);
+// app.use("/user", routes.userRoute);
 
-//   },
-  
-//   {
-//     path:'/contactUs',
-//     element: <Contact/>
-  
-//   },
-
-//   {
-//     path: '/reviews',
-//     element: <Reviews/>
-
-//   },
-
-//   {
-//     path: '/signUp',
-//     element: <SignUp/>
-
-//   },
-
-//   {
-//     path: '/reviews',
-//     element: <Reviews/>
-
-//   }
-//   ]
-//   )
+// app.listen(port, () => console.log(`Server running on port ${port}`));
 
 
-  const root = ReactDOM.createRoot(document.getElementById('root'));
-  root.render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+root.render(
       <App />
    
   );
