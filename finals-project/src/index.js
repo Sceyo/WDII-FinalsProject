@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 // const express = require("express");
-// const routes = require("./routes");
+// const mysql = require('mysql');
+
 // const app = express();
  
 // app.use(express.json());
