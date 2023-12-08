@@ -27,21 +27,21 @@ function Navbar() {
                         </div>
                         <div className='supp'>
                             <img src={mail} alt='mail' className='mail'/>
-                            <div className='text-wrapper3'>support@smartdelivery.com</div>
+                            <div className='text-wrapper3'>support@smartwash.com</div>
                         </div>
                     </div>
                     <div className='overlap-group-wrapper'>
                         <div className='overlap-group'>
                             <div className='group'>
-                                <div className='text-wrapper4'>Smart Delivery</div>
+                                <div className='text-wrapper4'>Smart Wash</div>
                                 <img src={CompanyLogo} alt='Company Logo' className='company-logo' />
                             </div>
                             <div className='nav-bar'>
-                                <Link to="/">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
-                                <Link to="/services">Services&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
-                                <Link to="/about">About&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
-                                <Link to="/contact-us">Contact&nbsp;&nbsp;&nbsp;Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
-                                <Link to="/reviews">Reviews</Link>
+                                <Link to="/">HOME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
+                                <Link to="/services">SERVICES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
+                                <Link to="/about">ABOUT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
+                                <Link to="/contact-us">CONTACT&nbsp;&nbsp;&nbsp;US&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
+                                <Link to="/reviews">REVIEWS</Link>
                             </div>
                         </div>
                     </div>

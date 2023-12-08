@@ -1,0 +1,9 @@
+.carousel-caption-text {
+    position: absolute;
+    bottom: 170px; /* Adjust this value to position it vertically */
+    left: 490px; /* Position horizontally at the center */
+    transform: translateX(-50%);
+    color: white; /* Change text color as needed */
+    font-size: 54px;
+  }
+  

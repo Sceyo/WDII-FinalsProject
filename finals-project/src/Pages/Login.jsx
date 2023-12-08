@@ -47,7 +47,7 @@ function Login() {
                 <div className="login-box">
                     <div className="company-info">
                         <img className="company-logo" src={CompanyLogo} alt="Company Logo" />
-                        <h1 className="company-name">Smart Delivery</h1>
+                        <h1 className="company-name">Smart Wash</h1>
                         <img className="horizontal-line" src={HorizontalLine} alt="Horizontal Line" />
                         <p className="motto">"Freshness Delivered to Your Doorstep"</p>
                     </div>

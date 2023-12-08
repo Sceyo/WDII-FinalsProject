@@ -1,0 +1,147 @@
+.login-main {
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login-main .separator-line {
+  border-bottom: 2px solid #000000; 
+  width: 350px; 
+  margin: 10px 0;
+}
+
+.login-box {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 300px;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.text-wrapper {
+  color: #333;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.line {
+  height: 2px;
+  width: 60%;
+  background-color: #333;
+  margin: 20px auto;
+}
+
+.freshness-delivered {
+  color: #333;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.big-login {
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-wrapper {
+  background-color: #494949;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.input {
+  border: none;
+  color: #000000;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px;
+  width: 92%;
+}
+
+.login-btn-rem {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.rem-check {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.check-box {
+  height: 18px;
+  width: 18px;
+}
+
+.rem {
+  height: 1px;
+  width: 100%;
+  background-color: #333;
+  margin-bottom: 15px;
+}
+
+.text-wrapper-2 {
+  color: #333;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.login-btn {
+  background-color: #6a6a6a;
+  border-radius: 8px;
+  padding: 8px;
+  width: 100%;
+  cursor: pointer;
+  color: #ffffff; 
+  font-size: 16px; 
+}
+
+.create-acc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px; 
+}
+
+.text-wrapper-3 {
+  color: #333;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.create-acc-btn {
+  background-color: #6a6a6a;
+  border-radius: 8px;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  box-sizing: border-box;
+}

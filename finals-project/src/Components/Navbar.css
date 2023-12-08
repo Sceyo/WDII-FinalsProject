@@ -1,7 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Maven Pro-Regular', Helvetica;
-   
+    font-family: 'Maven Pro-Regular', Helvetica; 
 }
 .box {
     width: 100%;
@@ -24,7 +23,7 @@ body {
 
 .box .navbar {
     background-color: #116a7b;
-    height: 65px;
+    height: 50px;
     left: 0;
     position: fixed;
     top: 0;
@@ -33,7 +32,7 @@ body {
 
 .box .login-sign {
     height: 57px;
-    left: 1076px;
+    left: 1150px;
     width: 249px;
     position: absolute;
     top: 0;
@@ -42,27 +41,27 @@ body {
     align-items: center;
     display: flex;
     gap: 30px;
-    height: 57px;
+    height: 45px;
     justify-content: center;
     position: relative;
-    width: 249px;
+    width: 250px;
 }
 
 .box .login {
     background-color: #414141;
     border-radius: 10px;
-    height: 35px;
-    left: 5px;
+    height: 30px;
+    left: 15px;
     position: absolute;
-    width: 105px;
+    width: 90px;
     cursor: pointer;
 }
 
 .box .text-wrapper {
     color: #ffffff;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 600;
-    left: 17px;
+    left: 15px;
     position: absolute;
     text-align: center;
     letter-spacing: 0;
@@ -73,10 +72,10 @@ body {
 .box .signup-btn {
     background-color: #414141;
     border-radius: 10px;
-    height: 37px;
-    left: 135px;
+    height: 30px;
+    left: 120px;
     position: absolute;
-    width: 115px;
+    width: 100px;
     cursor: pointer;
 }
 
@@ -86,7 +85,7 @@ body {
 
 .box .div {
     color:#ffffff;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 600;
     height: 33px;
     left: 15px;
@@ -94,7 +93,7 @@ body {
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 5px;
+    top: 4px;
 }
 
 .box .tel {
@@ -106,20 +105,19 @@ body {
 }
 
 .box .telephone {
-    height: 30px;
-    width: 30px;
-    left: 0;
+    height: 25px;
+    width: 25px;
+    left: 40px;
     object-fit: cover;
     position: absolute;
-    top: 0;
 }
 
 .box .text-wrapper2 {
     color: #ffffff;
-    font-size: 22px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 600;
     height: 33px;
-    left: 44px;
+    left: 70px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
@@ -137,9 +135,9 @@ body {
 }
 
 .box .mail {
-    height: 30px;
-    width: 30px;
-    left: 0;
+    height: 25px;
+    width: 25px;
+    left: 10px;
     object-fit: cover;
     position: absolute;
     top: 0;
@@ -147,10 +145,10 @@ body {
 
 .box .text-wrapper3 {
     color: #ffffff;
-    font-size: 22px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 600;
     height: 33px;
-    left: 44px;
+    left: 45px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
@@ -161,13 +159,13 @@ body {
 
 .box .overlap-group-wrapper {
     position: fixed;
-    top: 65px;
+    top: 50px;
 
 }
 
 .box .overlap-group {
     background-color: #ECE5C7;
-    height: 100px;
+    height: 85px;
     position: fixed;
     width: 100%;
 }
@@ -176,13 +174,13 @@ body {
     height: 113px;
     left: 150px;
     position: absolute;
-    top: 12px;
+    top: 10px;
     width: 377px;
 }
 
 .box .text-wrapper4 {
     color: #116a7b;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 700;
     height: 42px;
     left: 110px;
@@ -195,22 +193,22 @@ body {
 }
 
 .box .company-logo {
-    height: 80px;
-    left: 10px;
+    height: 65px;
+    left: 30px;
     mix-blend-mode: multiply;
     object-fit: cover;
     position: absolute;
     top: 0;
-    width: 85px;
+    width: 70px;
 }
 
 .box .nav-bar {
     color: #414141;
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 700;
     height: 48px;
-    left: 680px;
-    letter-spacing: -2.8px;
+    left: 670px;
+    letter-spacing: -1px;
     line-height: normal;
     position: absolute;
     text-align: center;
@@ -223,6 +221,7 @@ body {
     color: #414141;
 }
   
-.box .nav-bar a.active {
+.box .nav-bar a:active {
     font-weight: bold;
+    color: #116A7B;
 }
